@@ -361,7 +361,7 @@
     * "video"
     * "image"
     * "playlist"
-  * **exactMediaType** -
+  * **exactMediaType** - typ media tj. hudba, obrazek, video, atd.. Pokud neexistuje tak je typ urcen automaticky.
     * string
   * **source** - zdroj média
     * IMediaSource
