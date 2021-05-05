@@ -19,6 +19,7 @@
 * **content** - list otázek
 * **Id & uuid** - identifikátor dotazníku, změní se podle potřeby vaší databáze
 * Použití
+
       name: "Ukázkový dotazník",
     	title: "Ukázkový dotazník 1",
     	author: "Jméno Přijmení",
