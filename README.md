@@ -53,9 +53,9 @@
 
 
 
-# Komponenty dotazníku
+# Prvky dotazníku
 ## Heading
-* Nadpis který se používá u jednotlivých komponent
+* Jedná se o nadpis, lze ho použít nad otázkou nebo nad jakýmkoliv libovolným prvkem.
 * Parametry
   * **type** - používá se k určení komponenty
     * “heading”
@@ -72,7 +72,7 @@
       ]
 
 ## Paragraph
-* Text který se nachází pod nadpisem
+* Odstavec textu, pro vytvoření většího článku použijte několik samostatných odstavců. 
 * Parametry
   * **type** - používá se k určení komponenty
     * “paragraph”
@@ -87,7 +87,7 @@
 
 
 ## Bulletpoint
-* Seznam textových položek
+* Seznam položek, může obsahovat prostý text nebo celé odstavce.
 * Parametry
   * **type** - používá se k určení komponenty 
     * “bulletpoint”
