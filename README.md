@@ -81,8 +81,13 @@
     * “Number” - uvádí se v pixelech
     * “String” - uvádí se jak hodnota tak jednotka odsazení
   * **Image** -
-  * **Heading** -
+    * IEmbeddedImage
+    * string
+  * **Heading** - Nadpis prvku
+    * IHeading
+    * string
   * **content** - obsah Paragrafu, formát string
+    * string
 * Použití
 
 
@@ -138,7 +143,7 @@
   * **recordOrder** - 
     * boolean
     * "stealthy"
-  * **heading** - 
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
@@ -168,7 +173,7 @@
   * **shuffle** - 
     * IShuffleParameters
     * IShuffleParameters[]
-  * **heading** -
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
@@ -192,7 +197,7 @@
   * **shuffle** -
     * IShuffleParameters
     * IShuffleParameters[]
-  * **heading** -
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
@@ -281,7 +286,7 @@
   * **shuffleRows** -
     * IShuffleParameters
     * IShuffleParameters[]
-  * **heading** -
+  * **heading** - Nadpis prvku
     * IHeading
     * string
   * **darkEffect** - tmavé pozadí
@@ -320,7 +325,7 @@
   * **content** -
     * IElement
     * IElement[]
-  * **heading** -
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 
@@ -335,7 +340,7 @@
     * ICardsUnit[]
   * **design** -
     * string
-  * **heading** -
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
@@ -393,7 +398,7 @@
     * IScript
     * {path: string}
     * {url: string}
-  * **heading** - nadpis
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
@@ -432,7 +437,7 @@
     * boolean - (true/false) 
   * **showOrder** - zobrazení pořadí
     * boolean - (true/false)
-  * **heading** - nadpis
+  * **heading** - Nadpis prvku
     * IHeading
     * string
 * Použití
