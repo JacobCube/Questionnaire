@@ -66,6 +66,7 @@
     * “tertiary” nebo “3”
   * **content** - samotný text nadpisu formát string
 * Použití
+
       content: [
         { type: "heading", content: "Můžete dodat nějaký názor na reklamy během LOH?" }
       ]
@@ -117,6 +118,7 @@
   * **label** - label zapsaný ve formátu string (nadpis nad textovým polem)
   * **suggestions** - 
 * Použití
+
       content: [
         { type: "textbox", label: "Váš názor:" }
       ]
@@ -132,6 +134,7 @@
   * **recordOrder** - 
   * **heading** - 
 * Použití
+
       content: [{
 					heading: "Jaké jsou vaše oblíbené sporty na LOH?",
 					type: "checkbox",
@@ -152,6 +155,7 @@
   * **shuffle** - 
   * **heading** -
 * Použití
+
       content: [{
 					heading: "O jaký sport se jedná?",
 					type: "radio",
@@ -175,6 +179,7 @@
     * IHeading
     * string
 * Použití
+
       content: [{
 					span: 6,
 					heading: "V jakém roce byla použita tato hudební ukázka jako hymna OH?",
@@ -207,6 +212,7 @@
     * IShuffleParameters
     * IShuffleParameters[]
 * Použití
+
       content: [{
 					type: "select",
 					content: ["Televizní vysílání", "Doma", "V japonsku", "Nebudu sledovat"]
@@ -240,6 +246,7 @@
   * **vertical** - zda bude slider vertikálně
     * boolean - (true/false)
 * Použití
+
       content: [
 				{ type: "heading", content: "Sledovali jste LOH s přáteli? Kdyžtak kolik vás bylo?" },
 				{ type: "radio", default: 0, output: { value: "presne" }, content: [{ label: "Sám" }, "Znám přesný počet", "Přibližný počet"] },
@@ -265,6 +272,7 @@
   * **hoverEffect** - effekt při přejetí myšítkem přes buňku
     * boolean - (true/false)
 * Použití
+
       content: [{ type: "heading", content: "Ohlas politických stran" }, {
 				type: "table",
 				rows: [
@@ -314,6 +322,7 @@
     * IHeading
     * string
 * Použití
+
       content: [
 				{
 					type: "cards", content: [{
@@ -371,6 +380,7 @@
     * IHeading
     * string
 * Použití
+
       content: [
 				{ span: 2, type: "media", source: { youtube: "rmWDIzEocpc" }, heading: "IP Freely (screw youtube)" },
 				{
@@ -409,6 +419,7 @@
     * IHeading
     * string
 * Použití
+
       content: [{
 					type: "container",
 					content: [
