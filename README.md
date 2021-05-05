@@ -130,9 +130,17 @@
     * “checkbox”
     * “c”
   * **content** - 
+    * string[]
+    * ICheckBoxUnit[]
   * **shuffle** - 
+    * IShuffleParameters
+    * IShuffleParameters[]
   * **recordOrder** - 
+    * boolean
+    * "stealthy"
   * **heading** - 
+    * IHeading
+    * string
 * Použití
 
       content: [{
@@ -150,10 +158,19 @@
     * “radio”
     * “r” 
   * **content** - 
+    * string[]
+    * IRadioButtonUnit[]
   * **preset** - 
+    * IRadioButtonUnit
   * **default** - 
+    * number
+    * string
   * **shuffle** - 
+    * IShuffleParameters
+    * IShuffleParameters[]
   * **heading** -
+    * IHeading
+    * string
 * Použití
 
       content: [{
