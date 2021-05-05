@@ -55,7 +55,7 @@
 
 # Komponenty dotazníku
 ## Heading
-* Jedná se o nadpis u každé jednotlivé otázky
+* Nadpis který se používá u jednotlivých komponent
 * Parametry
   * **type** - používá se k určení komponenty
     * “heading”
@@ -72,7 +72,7 @@
       ]
 
 ## Paragraph
-* Jedná se o text který se nachází pod nadpisem
+* Text který se nachází pod nadpisem
 * Parametry
   * **type** - používá se k určení komponenty
     * “paragraph”
@@ -87,7 +87,7 @@
 
 
 ## Bulletpoint
-* Jedná se o komponent bullet point viz. Obrázek
+* Seznam textových položek
 * Parametry
   * **type** - používá se k určení komponenty 
     * “bulletpoint”
@@ -108,7 +108,7 @@
 
 
 ## TextField
-* Jedná se o input typu textového pole
+* Vstup textového pole pro kratší texty
 * Parametry
   * **type** - používá se k určení komponenty
     * “textfield”
@@ -124,7 +124,7 @@
       ]
 
 ## CheckBox
-* Jedná se o checkbox nebo několik checkboxů
+* Zaškrtávací vstupy
 * Parametry
   * **type** - používá se k určení komponenty
     * “checkbox”
@@ -143,7 +143,7 @@
 			}]
 
 ## RadioButton
-* Jedná se o skupinu radio buttonů
+* Výběr jednoho prvku ze skupiny
 * Parametry
   * **type** - používá se k určení komponenty
     * “radiobutton”
@@ -163,7 +163,7 @@
 			}]
 
 ## ImageSelect
-* Jedná se o výběr jednoho nebo více obrázků
+* Výběr jednoho nebo více obrázků - typ checkbox a radiobutton
 * Parametry
   * **type** - použivá se k určení komponenty
     * “imageselect”
@@ -193,7 +193,7 @@
 			}]
 
 ## Select
-* Jedná se o combobox, s možností výběru jedné nebo více hodnot
+* Combobox s možností výběru jedné nebo více hodnot
 * Parametry
   * **type** - používá se k určení komponenty
     * “selectbox”
@@ -219,7 +219,7 @@
 			}]
 
 ## Slider
-* Jedná se o posuvný výběr
+* Posuvný výběr
 * Parametry
   * **type** - používá se k určení komponenty
     * “slider”
@@ -255,7 +255,7 @@
 			]
 
 ## Table
-* Jedná se o tabulku naplněnou daty
+* Tabulku naplněná daty
 * Parametry
   * **type** - používá se k určení komponenty
     * "table"
