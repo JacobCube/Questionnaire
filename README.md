@@ -119,9 +119,12 @@
     * “textfield”
     * “textbox”
     * “t”
-  * **default** - placeholder zapsaný ve formátu string
-  * **label** - label zapsaný ve formátu string (nadpis nad textovým polem)
-  * **suggestions** - 
+  * **default** - placeholder
+    * string
+  * **label** - popisek prvku
+    * string
+  * **suggestions** - nápovědy
+    * IEmbeddedSuggestions
 * Použití
 
       content: [
