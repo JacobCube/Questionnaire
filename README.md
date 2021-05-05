@@ -280,16 +280,15 @@
 			]
 
 ## Table
-* Tabulku naplněná daty
+* Tabulka
 * Parametry
   * **type** - používá se k určení komponenty
     * "table"
-  * **rows** -
-    * TableRow[]
-  * **shuffleRows** -
-    * IShuffleParameters
-    * IShuffleParameters[]
-  * **heading** - Nadpis prvku
+  * **rows** - řádek  obsahuje list všech buňek tabulky
+    * 
+  * **shuffleRows** - rozmístí určité řádky náhodně
+    * 
+  * **heading** - nadpis prvku
     * IHeading
     * string
   * **darkEffect** - tmavé pozadí
@@ -310,8 +309,8 @@
 			}]
   
 
-## Inner
-* ????????????
+## Vnořené komponenty
+* Prvek, který vytvoří vnořené dotazníkové prostředí, je tedy možné vkládat komponenty .
 * Parametry
   * **type** - používá se k určení komponenty
     * "inner"
@@ -389,18 +388,16 @@
   * **exactMediaType** - typ media tj. hudba, obrazek, video, atd.. Pokud neexistuje tak je typ urcen automaticky.
     * string
   * **source** - zdroj média
-    * IMediaSource
-    * IMediaSource[]
+    * {}
   * **autoplay** - automatické spuštění přehrávání při načtení
     * boolean - (true/false)
   * **replay** - Znovupřehrání videa
     * boolean - (true/false)
   * **timeline** - zobrazení časový osy
     * boolean - (true/false)
-  * **script** -
-    * IScript
-    * {path: string}
-    * {url: string}
+  * **script** - soubor s titulky
+    * {path: "soubor"}
+    * {url: "soubor"}
   * **heading** - Nadpis prvku
     * IHeading
     * string
@@ -467,10 +464,18 @@
 					]
 				}]
 
-## ~~Note~~
+## Poznámka
+* Zvýrazněný text určení především pro varování a jiné důležité informace.
 
-## ~~Include~~
 
-## ~~Dialog~~
+## Externí obsah
+* Zobrazení vlastního HTML souboru uvnitř dotazníku.
+* Lze také načíst obsah z jiné stránky, ale to se používá pouze v nutných případech, hrozí že by se obsah cizích stránek mohl změnit nebo by mohl být smazán.
 
-## ~~Catalog~~
+## Dialog
+* Dialog s vlastními prvky uvnitř, lze zobrazit po kliknutí na tlačítko, automaticky nebo po jakékoliv jiné události/eventu/akci
+* <span style="color:red">Bude určitě přidán, zatím nefunguje protože vyžaduje nejprve integraci robustnějšího zabezpečení backendu</span>
+
+## Rejstřík
+* Menu otázek, na otázku lze přejít pomocí obrázků nebo textových odkazů
+* <span style="color:red">Bude určitě přidán, zatím nefunguje protože vyžaduje nejprve integraci robustnějšího zabezpečení backendu</span>
