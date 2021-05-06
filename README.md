@@ -1,9 +1,9 @@
 # Základní dokumentace dotazníkového systému
 ## Základní nastavení dotazníku
 ### Dotazník
-* **Name**
-* **Title**
-* **Author**
+* **Name** - Jméno dotazníku
+* **Title** - Nadpis dotazníku
+* **Author** - Autor dotazníku
 * **Test** - Dotazník je stále ve vývoji není pro koncového uživatele
 * **Defaults** - defaultní hodnoty proměných
 * **track** - informace které budeme o uživateli shromažďovat
@@ -315,12 +315,7 @@
   * **type** - používá se k určení komponenty
     * "inner"
   * **columns** -
-    * 1
-    * 2
-    * 3
-    * 4
-    * 5
-    * 6
+    * rozpětí 1 až 6 sloupců
   * **space** -
     * number
     * string
