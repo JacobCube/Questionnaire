@@ -327,7 +327,7 @@
     * string
 
 ## Cards
-* ????????????
+* TODO
 * Parametry
   * **type** - používá se k určení komponenty
     * "card"
